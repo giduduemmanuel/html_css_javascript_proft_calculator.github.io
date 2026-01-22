@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit Calculator project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="section1">
+        <!--create the heading-->
+        <div class="heading_section">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo_here">
+            </div>
+            <div class="heading_title">
+                <h1>GRAINS SHOP MANAGER DASHBOARD</h1>
+            </div>
+        </div>
+
+        <!--create horizotal rule-->
+        <div class="horizontal_rule">
+            <hr style="width: 900px;">
+        </div>
+
+
+        <div class="row1">
+            <div class="cat1">
+                <div class="heading1">
+                    <h2>Grains store Profit Calculator for Beans</h2>
+                </div>
+
+                <div class="input1">
+                    <!--create input boxes for items-->
+                    <label id="lable1">Enter beans cost price:</label><br>
+                    <input id="beanscost" type="text" placeholder="Type cost price here"><br>
+                </div>
+
+                <div class="input2">
+                    <label id="label2">Enter selling price:</label><br>
+                    <input id="beansselling" type="text" placeholder="Type selling price here"><br>
+                </div>
+
+                <div class="input4">
+                    <label id="label4">Enter Quantity sold:</label><br>
+                    <input id="beans_quantity_sold" type="text" placeholder="Enter Quantity sold"><br>
+                </div>
+
+                <div class="input5">
+                    <!--The results box-->
+                    <input id="beans_total_cost_price" type="text" placeholder="Beans_total_cost_price" readonly><br>
+                </div>
+
+                <div class="input6">
+                    <!--The results box-->
+                    <input id="beans_total_selling_price" type="text" placeholder="Beans_total_selling_price" readonly><br>
+                </div>
+
+                <div class="input3">
+                    <!--The results box-->
+                    <input id="beansresults" type="text" placeholder="Results here" readonly><br><br><br>
+                </div>
+
+                <div class="btn">
+                    <button id="calcbtn">Calculate Beans Profit</button>
+                </div>
+            </div>
+
+            <div class="cat2">
+                <div class="heading1">
+                    <h2>Grains store Profit Calculator for Maize</h2>
+                </div>
+
+                <div class="input1">
+                    <!--create input boxes for items-->
+                    <label id="lable3">Enter beans cost price:</label><br>
+                    <input id="maizecost" type="text" placeholder="Type cost price here"><br>
+                </div>
+
+                <div class="input2">
+                    <label id="label4">Enter selling price:</label><br>
+                    <input id="maizeselling" type="text" placeholder="Type selling price here"><br>
+                </div>
+
+                <div class="input4">
+                    <label id="label4">Enter Quantity sold:</label><br>
+                    <input id="maize_quantity_sold" type="text" placeholder="Enter Quantity sold"><br>
+                </div>
+
+                <div class="input5">
+                    <!--The results box-->
+                    <input id="maize_total_cost_price" type="text" placeholder="Maize_total_cost_price" readonly><br>
+                </div>
+
+                <div class="input6">
+                    <!--The results box-->
+                    <input id="maize_total_selling_price" type="text" placeholder="Maize_total_selling_price" readonly><br>
+                </div>
+
+                <div class="input3">
+                    <!--The results box-->
+                    <input id="results_maize" type="text" placeholder="Results here" readonly><br><br><br>
+                </div>
+
+                <div class="btn">
+                    <button id="calcbtn_maize">Calculate Maize Profit</button>
+                </div>
+            </div>
+
+            <div class="cat3">
+                <div class="heading1">
+                    <h2>Grains store Profit Calculator for Millet</h2>
+                </div>
+
+                <div class="input1">
+                    <!--create input boxes for items-->
+                    <label id="lable3">Enter millet cost price:</label><br>
+                    <input id="milletcost" type="text" placeholder="Type cost price here"><br>
+                </div>
+
+                <div class="input2">
+                    <label id="label4">Enter selling price:</label><br>
+                    <input id="milletselling" type="text" placeholder="Type selling price here"><br>
+                </div>
+
+                <div class="input4">
+                    <label id="label4">Enter Quantity sold:</label><br>
+                    <input id="millet_quantity_sold" type="text" placeholder="Enter Quantity sold"><br>
+                </div>
+
+                <div class="input5">
+                    <!--The results box-->
+                    <input id="total_cost_price" type="text" placeholder="Millet_total_cost_price" readonly><br>
+                </div>
+
+                <div class="input6">
+                    <!--The results box-->
+                    <input id="total_selling_price" type="text" placeholder="Millet_total_selling_price" readonly><br>
+                </div>
+
+                <div class="input3">
+                    <!--The results box-->
+                    <input id="results_millet" type="text" placeholder="Results here" readonly><br><br><br>
+                </div>
+
+                <div class="btn">
+                    <button id="calcbtn_millet">Calculate Millet Profit</button>
+                </div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="input_one">
+                <input id="input_one" type="text" placeholder="The total Profit displays here" readonly><br>
+            </div>
+
+        </div>
+    </div>
+
+    <!--javascript-->
+    <script src="index.js"></script>
+</body>
+
+</html>

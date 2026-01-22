@@ -1,0 +1,178 @@
+.cat1{
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-inline-start: 20px;
+    padding-top: 20px;
+    background-color: burlywood;
+    margin-left: 50px;
+}
+
+.cat2{
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-inline-start: 20px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.cat3{
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-inline-start: 20px;
+    padding-top: 20px;
+    background-color: rgb(221, 108, 174);
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+
+.input1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input2, .input4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input3, .input5, .input6, .input4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#beanscost, #beansselling, #maizecost, #maizeselling, #results_maize, #beansresults{
+    width: 300px;
+    height: 20px;
+}
+
+#quantity_sold, #total_cost_price, #total_selling_price, #millet_quantity_sold{
+    width: 300px;
+    height: 20px;
+}
+
+#maize_quantity_sold, #maize_total_cost_price, #maize_total_selling_price{
+    width: 300px;
+    height: 20px;
+}
+
+#beans_quantity_sold, #beans_total_cost_price, #beans_total_selling_price{
+    width: 300px;
+    height: 20px;
+}
+
+#milletcost, #milletselling, #results_millet{
+    width: 300px;
+    height: 20px;
+}
+
+#calcbtn:hover{
+    color: rgb(253, 229, 10);
+    background-color: brown;
+    transform: scale(1,2);
+}
+
+.cat1:hover{
+    background-color: rgb(140, 228, 100);
+}
+
+.cat2:hover{
+    background-color: rgb(140, 228, 100);
+}
+
+.cat3:hover{
+    background-color: rgb(140, 228, 100);
+}
+
+#calcbtn_maize:hover{
+    color: rgb(253, 229, 10);
+    background-color: brown;
+    transform: scale(1.0,2.0);
+}
+
+#calcbtn_millet:hover{
+    color: rgb(253, 229, 10);
+    background-color: brown;
+    transform: scale(1.0,2.0);
+}
+
+#beanscost:hover, #beansselling:hover, #maizecost:hover, #maizeselling:hover, #results_maize:hover, #beansresults:hover{
+    transform: scale(1,2);
+    text-align: center;
+}
+
+#milletcost:hover, #milletselling:hover, #results_millet:hover{
+    transform: scale(1,2);
+    text-align: center;
+}
+
+.heading_title{
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.heading_section{
+    align-items: center;
+    display: flex;
+}
+
+.row1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.row2{
+    border-radius: 5px;
+    border: 3px darkblue dotted;
+    height: 50px;
+    width: 100%;
+    align-content: center;
+    background-color: lightcyan;
+
+}
+
+#input_one{
+    height: 35px;
+    width: 500px;
+    margin-left: 500px;
+    background-color: yellowgreen;
+    font-size: medium;
+    text-align: center;
+}
+
+#input_one:hover{
+    background-color: red;
+    color: white;
+}
+.row2:hover{
+    background-color: lightcoral;
+}
